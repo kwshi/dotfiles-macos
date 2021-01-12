@@ -1,0 +1,7 @@
+[url "gh:"]
+	insteadOf = https://github.com/
+	insteadOf = git://github.com/
+	insteadOf = git@github.com:
+[user]
+	name = Kye Shi
+	email = shi.kye@gmail.com

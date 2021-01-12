@@ -1,0 +1,44 @@
+alt - 0x2A: skhd --reload
+
+alt - d : yabai -m window --focus north
+alt - a : yabai -m window --focus west
+alt - s : yabai -m window --focus south
+alt - h : yabai -m window --focus east
+
+alt + shift - d : yabai -m window --swap north
+alt + shift - a : yabai -m window --swap west
+alt + shift - s : yabai -m window --swap south
+alt + shift - h : yabai -m window --swap east
+
+alt + ctrl - d : yabai -m window --warp north
+alt + ctrl - a : yabai -m window --warp west
+alt + ctrl - s : yabai -m window --warp south
+alt + ctrl - h : yabai -m window --warp east
+
+alt - tab : yabai -m window --focus next
+alt + ctrl - tab : yabai -m window --focus prev
+
+alt - 0x2B: yabai -m window --ratio rel:-.0625
+alt - 0x2F: yabai -m window --ratio rel:+.0625
+alt - z: yabai -m window --ratio rel:-.0625
+alt - x: yabai -m window --ratio rel:+.0625
+
+alt - m: yabai -m window --ratio abs:.5
+alt + shift - m : yabai -m space --balance
+
+alt - c: yabai -m window --close
+
+alt - q : yabai -m space --focus prev
+alt - r : yabai -m space --focus next
+
+alt + ctrl - q : yabai -m window --space prev
+alt + ctrl - r : yabai -m window --space next
+
+alt - 1 : yabai -m space --focus 1
+alt - 2 : yabai -m space --focus 2
+alt - 3 : yabai -m space --focus 3
+
+alt - return : open -a terminal ~
+
+alt - t: open -a 'mission control'
+
